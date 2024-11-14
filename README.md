@@ -9,7 +9,7 @@ Some of the core disciplines include: Agriculture (viticulture), Economics, Engi
 Natural Sciences (Chemistry, Biochemistry, Microbiology), and Social science (Consumer and Sensory science).
 
 # Tutorial 1: Data wrangling
-This tutorial uses a typical oenological dataset <a href="https://github.com/mpho-mafata/workshop-eco2wine-mvda/blob/main/datasets">found here (data_wrangling)</a>.
+This tutorial uses a typical oenological dataset <a href="https://github.com/mpho-mafata/workshop-eco2wine-mvda/blob/main/datasets">found here (data_wrangling.xlsx)</a> and the full script <a href="https://github.com/mpho-mafata/workshop-eco2wine-mvda/blob/main/tutorial_scripts"> available here (data_wrangling.R)</a>..
 
 Sometimes when we use spreadsheets to log our data we may decide to concatenate related data into one sheet then use field demarcation to indicate the different data.
 The state of such data is not conducive for analysis so it will need to be processed ("wrangled") for analysis.
@@ -60,7 +60,12 @@ writexl::write_xlsx(list("Meta data"= meta_data, fragrance= fragrance), "cleaned
 
 <img src="/figures/multicluster.jpg">
 
-This tutorial uses a multimodal dataset <a href="https://github.com/mpho-mafata/workshop-eco2wine-mvda/blob/main/datasets">found here (old_vines)</a>.
-```
+This tutorial uses a multimodal dataset <a href="https://github.com/mpho-mafata/workshop-eco2wine-mvda/blob/main/datasets">found here (old_vines.xlsx)</a> and the full script <a href="https://github.com/mpho-mafata/workshop-eco2wine-mvda/blob/main/tutorial_scripts"> available here (old_vines.R)</a>. We start with the analysis of individual blocks using a heatmap, pca, and mds.
+</br>
+</br>
+<img width='30%' src="/figures/heatmap.jpg" hspace="10">
+<img width='30%' src="/figures/pca_plot.jpg" hspace="10">
+<img width='30%' height='200' src="/figures/mds_plot.jpg" hspace="10">
+</br>
 
-```
+And then we look at the multiblock analysis (MFA)
