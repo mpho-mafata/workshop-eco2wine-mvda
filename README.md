@@ -68,4 +68,6 @@ This tutorial uses a multimodal dataset <a href="https://github.com/mpho-mafata/
 <img width='30%' height='200' src="/figures/mds_plot.jpg" hspace="10">
 </br>
 
-And then we look at the multiblock analysis (MFA)
+And then we look at the multiblock analysis (MFA).
+</br>
+<img src="/figures/mfa_axes.jpg">
